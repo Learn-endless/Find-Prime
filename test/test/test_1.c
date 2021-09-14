@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-//¾­µä³ÌĞò£ºÊäÈëÒ»¸öÊıÅĞ¶ÏÊÇ·ñÎªËØÊı£¨ÖÊÊı£©
+//ç»å…¸ç¨‹åºï¼šè¾“å…¥ä¸€ä¸ªæ•°åˆ¤æ–­æ˜¯å¦ä¸ºç´ æ•°ï¼ˆè´¨æ•°ï¼‰
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -12,15 +12,15 @@ int main()
 		for (i = 2; i <= k; i++)
 		if (n%i == 0)break;
 		if (i <= k)
-			printf("%d ²»ÊÇËØÊı\n", n);
+			printf("%d ä¸æ˜¯ç´ æ•°\n", n);
 		else
-			printf("%d ÊÇËØÊı\n", n);
+			printf("%d æ˜¯ç´ æ•°\n", n);
 	}
 	return 0;
 }
 
 
-//¾³½ç1£¨ÊÔ³ı·¨£©
+//å¢ƒç•Œ1ï¼ˆè¯•é™¤æ³•ï¼‰
 //#include<stdio.h>
 //int main()
 //{
@@ -35,9 +35,9 @@ int main()
 //				break;
 //		}
 //		if (i == j)
-//			printf("%dÊÇËØÊı\n", i);
+//			printf("%dæ˜¯ç´ æ•°\n", i);
 //		else
-//			printf("%d²»ÊÇËØÊı\n", i);
+//			printf("%dä¸æ˜¯ç´ æ•°\n", i);
 //		count++;
 //	}
 //	printf("%d\n", count);
@@ -45,13 +45,13 @@ int main()
 //}
 
 
-//¾³½ç2£¨ÊÔ³ı·¨£©
+//å¢ƒç•Œ2ï¼ˆè¯•é™¤æ³•ï¼‰
 //#include<stdio.h>
 //int main()
 //{
 //	int i = 0;
 //	int count = 0;
-//	printf("2ÊÇËØÊı\n");
+//	printf("2æ˜¯ç´ æ•°\n");
 //	for (i = 3; i <= 100; i += 2)
 //	{
 //		int j = 0;
@@ -61,9 +61,9 @@ int main()
 //				break;
 //		}
 //		if (i == j)
-//			printf("%dÊÇËØÊı\n", i);
+//			printf("%dæ˜¯ç´ æ•°\n", i);
 //		else
-//			printf("%d²»ÊÇËØÊı\n", i);
+//			printf("%dä¸æ˜¯ç´ æ•°\n", i);
 //		count++;
 //	}
 //	printf("%d\n", count);
@@ -71,7 +71,7 @@ int main()
 //}
 
 
-//¾³½ç3£¨ÊÔ³ı·¨£©
+//å¢ƒç•Œ3ï¼ˆè¯•é™¤æ³•ï¼‰
 //#include<stdio.h>
 //#include<math.h>
 //int main()
@@ -88,9 +88,9 @@ int main()
 //				break;
 //		}
 //		if (j<=sqrt(float(i)))
-//			printf("%d²»ÊÇËØÊı\n", i);
+//			printf("%dä¸æ˜¯ç´ æ•°\n", i);
 //		else
-//			printf("%dÊÇËØÊı\n", i);
+//			printf("%dæ˜¯ç´ æ•°\n", i);
 //		count++;
 //	}
 //	printf("%d\n", count);
@@ -98,7 +98,7 @@ int main()
 //}
 
 
-//¾³½ç4£¨ÊÔ³ı·¨£©
+//å¢ƒç•Œ4ï¼ˆè¯•é™¤æ³•ï¼‰
 //#include<stdio.h>
 //#include<math.h>
 //int main()
@@ -106,7 +106,7 @@ int main()
 //	int i = 0;
 //	int count = 0;
 //	int num = 0;
-//	printf("2ÊÇËØÊı\n");
+//	printf("2æ˜¯ç´ æ•°\n");
 //	for (i = 3; i <= 100; i += 2)
 //	{
 //		int j = 0;
@@ -116,9 +116,9 @@ int main()
 //				break;
 //		}
 //		if (j <= sqrt(float(i)))
-//			printf("%d²»ÊÇËØÊı\n", i);
+//			printf("%dä¸æ˜¯ç´ æ•°\n", i);
 //		else
-//			printf("%dÊÇËØÊı\n", i);
+//			printf("%dæ˜¯ç´ æ•°\n", i);
 //		count++;
 //	}
 //	printf("%d\n", count);
